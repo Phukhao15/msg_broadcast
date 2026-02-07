@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include msg_broadcast *.css
+recursive-include msg_broadcast *.csv
+recursive-include msg_broadcast *.html
+recursive-include msg_broadcast *.ico
+recursive-include msg_broadcast *.js
+recursive-include msg_broadcast *.json
+recursive-include msg_broadcast *.md
+recursive-include msg_broadcast *.png
+recursive-include msg_broadcast *.py
+recursive-include msg_broadcast *.svg
+recursive-include msg_broadcast *.txt
+recursive-exclude msg_broadcast *.pyc
