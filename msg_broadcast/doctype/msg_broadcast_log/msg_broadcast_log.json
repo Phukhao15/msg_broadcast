@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-12-16 18:39:14.328131",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "broadcast",
+  "acknowledged_on",
+  "ip_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "broadcast",
+   "fieldtype": "Link",
+   "label": "Broadcast",
+   "options": "Message Broadcast"
+  },
+  {
+   "fieldname": "acknowledged_on",
+   "fieldtype": "Data",
+   "label": "Acknowledged On"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-12-16 18:39:14.328131",
+ "modified_by": "Administrator",
+ "module": "msg_broadcast",
+ "name": "MSG Broadcast Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
